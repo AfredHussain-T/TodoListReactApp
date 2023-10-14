@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://dukesavenue.com/wp-content/uploads/2020/03/Untitled-design-13-800x450.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 code {

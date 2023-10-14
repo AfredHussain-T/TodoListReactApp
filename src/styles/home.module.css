@@ -1,0 +1,94 @@
+/* Styling the body of the main todo container */
+.todoMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    /* backdrop-filter: blur(20px); */
+}
+
+
+/* Styling the input div of the application */
+.inputContainer{
+    width: 70%;
+    margin-top: 6%;
+}
+::placeholder {
+    color: rgb(130, 120, 120);
+    opacity: 1; /* Firefox */
+  }
+.inputContainer input{
+    padding: 2%;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: gray;
+    font-size: large;
+    border-bottom: 1px solid rgb(130, 121, 121);
+    font-style: italic;
+}
+
+.buttons{
+    padding: 2%;
+    border-radius:30px;
+    margin: 2%;
+    width: 15%;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(130, 120, 120);
+}
+
+
+/* Styling the todo container where all the tasks are displayed */
+.todoTaskContainer{
+    border-radius: 10px;
+    width: 70vw;
+    height: 80vh;
+    margin-top: 7.1% ;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 1px 1px 10px 10px rgb(50, 53, 54);
+}
+
+/* Styling the task container */
+.taskContainer{
+    background: rgb(246, 227, 192);
+    margin: 1% 4% 0.3% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Styling the title part of the task */
+.leftDiv{
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    padding: 1%;
+}
+.leftDiv span{
+    margin-left: 5%;
+}
+/* Styling the delete and edit buttons */
+.rightDiv{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+.rightDiv img{
+    height: 22px;
+}
+
+@media only screen and (max-width: 900px) {
+    .todoTaskContainer {
+    /* background-color: rgb(214, 23, 23); */
+    width: 600px;
+    }
+    }
