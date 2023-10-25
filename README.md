@@ -1,5 +1,17 @@
 # Hosted URL: https://todo-list-react-app-8f1d3.web.app/
 
+# About
+
+* It is a frontend project in which I need to fetch the data from the given API and add the functionalities like update, remove and post.
+* I have used React to develop the frontend of the application. Also used various libraries and tools of react to get notifications, to change the state of the components. 
+
+# Functioning:
+
+* When we run the application it will fetch the data from the provided API and will display all the tasks.
+* We can provide some input and the task will get added to the list of Todo tasks. We will also be notified that the task is added.
+* Every task in the list will be containing a delete button and edit button. We can delete or edit the task by clicking on them.
+* We can mark the task as finished by clicking on the checkbox.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
