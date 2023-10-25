@@ -12,6 +12,56 @@
 * Every task in the list will be containing a delete button and edit button. We can delete or edit the task by clicking on them.
 * We can mark the task as finished by clicking on the checkbox.
 
+# Folder Structure:
+
+~ToDoList
+    |
+    |               
+    |--->.firebase
+    |
+    |
+    |
+    |--->build---->|--->static--->|--->css
+    |              |              |--->js
+    |              |
+    |              |--->favicon.ico
+    |              |--->index.html
+    |              |--->logo192.png
+    |              |--->logo512.png
+    |              |--->manifest.json
+    |              |--->robots.txt
+    |
+    |--->node_modules
+    |
+    |--->public--->|--->favicon.ico
+    |              |--->index.html
+    |              |--->logo192.png
+    |              |--->logo512.png
+    |              |--->manifest.json
+    |              |--->robots.txt
+    |
+    |--->src--->|--->api--->|--->index.js
+    |           |
+    |           |--->components---->|-->App.js
+    |           |                   |-->index.js
+    |           |                   |-->Navbar.js
+    |           |
+    |           |--->styles---->|-->home.module.css
+    |           |               |-->nav.module.css
+    |           |
+    |           |--->views---->|--->Home.js
+    |           |              |--->index.js
+    |           |--->App.css
+    |           |--->index.css
+    |           |--->index.js
+    |
+    |-->.firebaserc
+    |-->.gitignore
+    |-->firebase.json
+    |--> package-lock.json
+    |-->package.json
+    |--> README.md
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
